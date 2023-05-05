@@ -1,12 +1,36 @@
-hr{
+hr {
     position: relative;
     top: 20px;
-    border: none;   
+    border: none;
     height: 12px;
     background: black;
 }
-.wait{
+.wait {
     text-align: center;
     margin-top: 5rem;
 }
+/* Experimenting with code */
+.App {
+    background-image: url("/src/assets/images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+.Frontal {
+    /* text-align: left; */
+    color: black;
+    text-align: center;
+}
+
+.navbar-brand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
