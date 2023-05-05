@@ -29,7 +29,10 @@ function Home() {
                             className="d-inline-block mx-auto align-top"
                             alt="BlockPharm logo"
                         />
-                        <strong style={{ fontSize: "1.8em" }}> BlockPharm</strong>
+                        <strong style={{ fontSize: "1.8em" }}>
+                            <span style={{ color: "#146C94" }}> Block</span>
+                            <span style={{ color: "#F45050" }}>Pharm</span>
+                        </strong>
                     </a>
                 </nav>
             </div>
@@ -39,7 +42,6 @@ function Home() {
                     Blockchain technology to develop a safe and transparent supply chain
                     management solution for the pharmaceutical business
                 </h4>
-
 
                 <br />
             </div>
